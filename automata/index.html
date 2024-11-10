@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFA Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script> 
+</head>
+<body>
+    <div class="input-section">
+        <label for="inputString">String that ends with zero</label>
+        <input type="text" id="inputString" placeholder="Enter binary string" />
+        <button id="testButton" onclick="test()">Test String</button>
+    </div>
+
+    <div id="result" class="result"></div>
+    <div id="tree" class="tree-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
